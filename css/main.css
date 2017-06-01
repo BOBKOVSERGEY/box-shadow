@@ -1,0 +1,102 @@
+.blockOne {
+  background: #222;
+  text-align: center;
+  padding: 50px 0; }
+  .blockOne__heading {
+    font-size: 5em;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1); }
+
+.blockTwo {
+  background: #cbcbcb;
+  text-align: center;
+  padding: 50px 0; }
+  .blockTwo__heading {
+    font-size: 5em;
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px; }
+
+.wrapperOne {
+  background: #E6E6E6;
+  padding: 50px; }
+
+.boxOne {
+  width: 70%;
+  background: #FFF;
+  margin: 40px auto;
+  text-align: center;
+  padding: 50px 15px; }
+  .boxOne_basic {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777; }
+
+.wrapperTwo {
+  background: #333;
+  padding: 50px;
+  position: relative; }
+
+.boxTwo {
+  background: #FFF;
+  margin: 40px auto;
+  text-align: center;
+  padding: 50px 15px;
+  height: 300px; }
+  .boxTwo_effect1 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0; }
+    .boxTwo_effect1:before {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      bottom: 15px;
+      left: 10px;
+      width: 50%;
+      top: 50%;
+      max-width: 300px;
+      background: #777;
+      -webkit-box-shadow: 0 15px 10px #777;
+      -moz-box-shadow: 0 15px 10px #777;
+      box-shadow: 0 15px 10px #777;
+      -webkit-transform: rotate(-3deg);
+      -moz-transform: rotate(-3deg);
+      -o-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+      transform: rotate(-3deg); }
+    .boxTwo_effect1:after {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      bottom: 15px;
+      left: 10px;
+      width: 50%;
+      top: 50%;
+      max-width: 300px;
+      background: #777;
+      -webkit-box-shadow: 0 15px 10px #777;
+      -moz-box-shadow: 0 15px 10px #777;
+      box-shadow: 0 15px 10px #777;
+      -webkit-transform: rotate(-3deg);
+      -moz-transform: rotate(-3deg);
+      -o-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+      transform: rotate(-3deg); }
+    .boxTwo_effect1:after {
+      -webkit-transform: rotate(3deg);
+      -moz-transform: rotate(3deg);
+      -o-transform: rotate(3deg);
+      -ms-transform: rotate(3deg);
+      transform: rotate(3deg);
+      right: 10px;
+      left: auto; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=main.css.map */
